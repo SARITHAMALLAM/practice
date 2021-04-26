@@ -2589,3 +2589,6 @@ org.eclipse.core.runtime.CoreException: Launch configuration New_configuration r
 2021-04-26 10:14:28,995 [Worker-23: Git Repository Change Scanner] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\malla\eclipse-workspace\.git]
 2021-04-26 12:26:36,006 [Worker-31: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\malla\git\Testproject\assignment\.git]
 2021-04-26 12:27:16,285 [ModalContext] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\malla\git\repository3\.git]
+2021-04-26 15:03:20,803 [Worker-68: Fetching remote refs from git@github.com:SARITHAMALLAM/practice.git] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2021-04-26 15:03:20,995 [Worker-68: Fetching remote refs from git@github.com:SARITHAMALLAM/practice.git] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
+2021-04-26 15:03:21,225 [sshd-JGitSshClient[2f658bb6]-nio2-thread-1] WARN  o.e.j.i.t.s.OpenSshServerKeyDatabase - Could not read known hosts file (locked) C:\Users\malla\.ssh\known_hosts
