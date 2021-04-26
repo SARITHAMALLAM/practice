@@ -1,0 +1,21 @@
+
+public class student {
+	
+	public static void main(String[] args) {		
+		int num = 19;
+				if (num<13) {
+		System.out.println("child");
+				} else if(num>19) {
+					System.out.println("adult");
+					
+				} else if (num>13||num <20 ) {
+					
+					System.out.println("teen");
+				}
+}
+			
+		
+	}
+	
+
+
