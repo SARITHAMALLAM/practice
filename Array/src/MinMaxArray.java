@@ -1,0 +1,38 @@
+ 
+
+
+
+public class MinMaxArray {
+
+	public static void main(String[] args) {
+ 
+		
+		MinMaxArray minmaxArray = new MinMaxArray();
+		minmaxArray.printMinMax(new int[]{64, 49, 13,5,78,34,82});
+		
+	}
+	
+	
+	private void printMinMax(int[] input) {
+		int sortedArray[] = sortArray(input);
+		System.out.println(sortedArray[0]);
+		System.out.println(sortedArray[input.length-1]);
+	}
+
+	private int[] sortArray(int[] input) {
+
+		for(int i=0; i < input.length;i++)
+		{
+			for(int k = i+1;k < input.length; k++) {
+				
+				if(input[i] > input[k]) {
+					int temp = input[i];
+					input[i] = input[k];
+					input[k] = temp;
+				}
+			}
+		}
+		return input;
+	}
+	}
+	

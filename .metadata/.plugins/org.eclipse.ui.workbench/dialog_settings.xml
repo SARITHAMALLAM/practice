@@ -23,8 +23,8 @@
 			<item value="2"/>
 		</list>
 		<list key="textArray">
-			<item value="gi"/>
 			<item value="git"/>
+			<item value="g "/>
 		</list>
 	</section>
 </section>
