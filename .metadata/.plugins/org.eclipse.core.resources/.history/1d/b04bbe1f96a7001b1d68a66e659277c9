@@ -1,0 +1,25 @@
+
+public class student {
+	
+	private String Name;
+	private int Age;
+	
+	
+	public void setName(String n, int A) {
+		Name = n;
+		Age = A; 
+		
+	}
+	
+	
+		
+				}
+	
+		
+		
+
+			
+		
+}	
+
+

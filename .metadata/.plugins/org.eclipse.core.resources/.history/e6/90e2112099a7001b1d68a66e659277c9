@@ -1,0 +1,10 @@
+
+public class d3 {
+
+	public static void main(String[] args) {
+		
+		d3 z = new FizzBuzz();
+
+	}
+
+}

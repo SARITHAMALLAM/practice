@@ -1,0 +1,35 @@
+
+public class student {
+	private static final String String = null;
+
+	public static void main (String[] args) {
+	
+	String Name;
+	int Age;
+	
+	String getName() {
+		return Name;
+	}
+	
+	int getAge () {
+	return Age; 
+	}
+	
+	
+	public void setName(String n, int A, int Age, String Name) {
+		this.Name = Name;
+		this.Age = Age;
+		
+	}
+	
+		
+				}
+	
+		
+		
+
+			
+		
+}	
+
+
